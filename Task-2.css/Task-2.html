@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 8px;
+    background: #e8f0ff;
+}
+input[type="email"] {
+    border: 2px solid green;
+    padding: 8px;
+    background: #eaffea;
+}
+input[type="password"] {
+    border: 2px solid red;
+    padding: 8px;
+    background: #ffeaea;
+}
+input[type="submit"] {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[placeholder] {
+    font-style: italic;
+}
+select[name="country"] {
+    border: 2px solid purple;
+    padding: 6px;
+}
+textarea[rows] {
+    border: 2px dashed orange;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form>
+    <label>Name:</label><br>
+    <input type="text" placeholder="Enter your name"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" placeholder="Enter your email"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" placeholder="Create password"><br><br>
+
+    <label>Country:</label><br>
+    <select name="country">
+        <option>India</option>
+        <option>USA</option>
+        <option>UK</option>
+    </select><br><br>
+
+    <label>Message:</label><br>
+    <textarea rows="4" cols="30" placeholder="Write something..."></textarea><br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
