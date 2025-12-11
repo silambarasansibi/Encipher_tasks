@@ -1,0 +1,36 @@
+.box1 {
+    background: lightcoral;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.box2 {
+    background: lightgreen;
+    padding: 20px;
+    border: 2px solid green;
+    font-weight: bold;
+}
+
+.box3 {
+    background: lightblue;
+    padding: 15px;
+    border-left: 8px solid blue;
+    font-style: italic;
+}
+
+.box4 {
+    background: gold;
+    padding: 15px;
+    box-shadow: 0 0 10px #888;
+    text-align: center;
+}
+
+.box5 {
+    background: black;
+    color: white;
+    padding: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
