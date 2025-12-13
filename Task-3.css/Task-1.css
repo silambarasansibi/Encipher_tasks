@@ -22,18 +22,49 @@
             background-color: lightcoral;
             margin: 5px;
         }
+        .hide-display {
+            display: none;
+        }
+        .hide-visibility {
+            visibility: hidden;
+        }
+        .inline-to-block {
+            display: block;
+            background-color: lightyellow;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .block-to-inline {
+            display: inline;
+            background-color: lightgray;
+            padding: 10px;
+        }
+        .box {
+            border: 1px solid black;
+            margin: 5px;
+            padding: 5px;
+        }
     </style>
 </head>
 <body>
 
-    <div class="block">Block Element</div>
-    <div class="block">Block Element</div>
+    <div class="block box">Block Element</div>
+    <div class="block box">Block Element</div>
 
-    <span class="inline">Inline Element</span>
-    <span class="inline">Inline Element</span>
+    <span class="inline box">Inline Element</span>
+    <span class="inline box">Inline Element</span>
 
-    <div class="inline-block">Inline-Block</div>
-    <div class="inline-block">Inline-Block</div>
+    <div class="inline-block box">Inline-Block</div>
+    <div class="inline-block box">Inline-Block</div>
+
+    <div class="box hide-display">Hidden using display none</div>
+
+    <div class="box hide-visibility">Hidden using visibility hidden</div>
+
+    <span class="box inline-to-block">Inline to Block</span>
+
+    <div class="box block-to-inline">Block to Inline</div>
+    <div class="box block-to-inline">Block to Inline</div>
 
 </body>
 </html>
