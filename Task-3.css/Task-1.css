@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display Examples</title>
+    <style>
+        .block {
+            display: block;
+            width: 200px;
+            height: 50px;
+            background-color: lightblue;
+            margin: 10px 0;
+        }
+        .inline {
+            display: inline;
+            background-color: lightgreen;
+            padding: 10px;
+        }
+        .inline-block {
+            display: inline-block;
+            width: 120px;
+            height: 50px;
+            background-color: lightcoral;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="block">Block Element</div>
+    <div class="block">Block Element</div>
+
+    <span class="inline">Inline Element</span>
+    <span class="inline">Inline Element</span>
+
+    <div class="inline-block">Inline-Block</div>
+    <div class="inline-block">Inline-Block</div>
+
+</body>
+</html>
