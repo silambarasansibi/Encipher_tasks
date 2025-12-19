@@ -1,0 +1,73 @@
+body{
+    background-color: aquamarine;
+}
+.cont{
+    background-color: white;
+    border: 1px solid rgb(212, 185, 185);
+    margin: 10% 30% 30% 25%;
+    border-radius: 10px;
+
+}
+.cont input{
+    background-color: white;
+    margin: 10px 20px 20px 30px;
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding-left: 20px ;
+}
+.cont h1{
+    background-color: white;
+    display: block;
+    text-align: center;
+    color: blue;
+}
+
+.cont label{
+    border: 1px solid blue; 
+    text-align: center; 
+    padding: 1.5%;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    margin-left : 5%  ;
+}
+
+
+.mask{
+    display:flex;
+    justify-content: space-between;
+
+}
+.flex1{
+    width: 50px;
+    height: 2%;
+    font-size: large;
+     border: 1px solid transparent;
+    padding: 8px;
+     margin-left: 30px;
+}
+.flex2{
+    width: 50px;
+    height: 2%;
+    font-size: large;
+     border: 1px solid transparent;
+    padding: 8px;
+    color: rgb(140, 198, 248);
+}
+.flex3{
+    width: 50px;
+    height: 25px;
+    font-size: large;
+    border: 1px solid transparent;
+    padding: 8px;
+    background-color: red;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+hr{
+    border: none;
+    border-top: 2px dotted gray;
+}

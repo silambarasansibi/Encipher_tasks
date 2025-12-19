@@ -1,0 +1,25 @@
+.container{
+    margin: 10px;
+    justify-content: center;
+    background-color: rgb(247, 245, 240);
+    padding: 20px;
+    border-radius: 10px;
+}
+.top{
+    background-color: rgb(38, 169, 245);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 50px;
+}
+.foot{
+    background-color: rgb(38, 169, 245);
+    display: flex;
+    color: white;
+    margin: 0;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
