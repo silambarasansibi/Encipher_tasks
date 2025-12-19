@@ -1,0 +1,42 @@
+img {
+    width: 200px;
+    height: 140px;
+    margin: 10px;
+}
+
+.img1 {
+     opacity: 1; 
+    }
+.img2 {
+     opacity: 0.7; 
+    }
+.img3 {
+     opacity: 0.4;
+     }
+.img4 {
+     opacity: 0.2;
+     }
+
+h1:hover {
+    color: green;
+    font-size: xx-large;
+}
+
+h2::first-letter{
+   
+      font-size: 200px;
+
+}
+
+input:hover{
+
+    background-color: blue;
+    cursor: not-allowed;
+
+}
+
+img.img:hover{
+
+    opacity: 0.1;
+
+}
