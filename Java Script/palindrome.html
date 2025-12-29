@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   
+<script>
+
+    function palindrome() {
+        let str = prompt("enter a string or number:").toLowerCase();
+        let reversed = "";
+
+        for(let i = str.length - 1; i >= 0; i--) {
+            reversed += str[i];
+        }
+
+        if(str == reversed) {
+            alert("it is a palindrome");
+        } else {
+            alert("not a palindrome");
+        }
+    }
+
+    palindrome();
+</script>
+
+
+</body>
+</html>
