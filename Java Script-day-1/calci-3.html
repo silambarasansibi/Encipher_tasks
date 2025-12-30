@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <script>
+let a = prompt("enter first number:");
+let b = prompt("enter second number:");
+let op = prompt("enter operator (+, -, *, /):");
+let result;
+
+if (op == "+") {
+  result = Number(a) + Number(b);
+} else if (op == "-") {
+  result = a - b;
+} else if (op == "*") {
+  result = a * b;
+} else if (op == "/") {
+  result = a / b;
+} else {
+  alert("invalid operator");
+}
+
+if (result !== undefined) {
+  alert("result: " + result);
+}
+</script>
+
+
+</body>
+</html>
