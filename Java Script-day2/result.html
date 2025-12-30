@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    function stdresult() {
+        let m1 = Number(prompt("enter marks for subject 1:"));
+        let m2 = Number(prompt("enter marks for subject 2:"));
+        let m3 = Number(prompt("enter marks for subject 3:"));
+
+        let total = m1 + m2 + m3;
+        let average = total / 3;
+        let status ="";
+
+        if (m1 >= 35 && m2 >= 35 && m3 >= 35){
+                  
+           status="pass";
+
+        }
+        else{
+            status="fail";
+        }
+
+        alert("total: " + total + "\naverage: " + average + "\nstatus: " + status);
+    }
+
+    stdresult();
+</script>
+
+</body>
+</html>
