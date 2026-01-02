@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+function add(a, b) {
+  return a + b;
+}
+
+function subtract(a, b) {
+  return a - b;
+}
+
+function multiply(a, b) {
+  return a * b;
+}
+
+let a = Number(prompt("enter first number:"));
+let b = Number(prompt("enter second number:"));
+let choice = prompt("menu:\n1 add\n2 subtract\n3 multiply");
+
+let result;
+
+switch (choice) {
+  case "1":
+    result = add(a, b);
+    break;
+  case "2":
+    result = subtract(a, b);
+    break;
+  case "3":
+    result = multiply(a, b);
+    break;
+  default:
+    alert("invalid choice");
+}
+
+if (result !== undefined) {
+  alert("result: " + result);
+}
+</script>
+
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+let limit = prompt("enter the limit:");
+let evensum = 0;
+let oddsum = 0;
+
+for (let i = 1; i <= limit; i++) {
+  if (i % 2 == 0) {
+    evensum = evensum + i;
+  } else {
+    oddsum = oddsum + i;
+  }
+}
+
+alert("even sum: " + evensum + "\nodd sum: " + oddsum);
+</script>
+
+
+</body>
+</html>
