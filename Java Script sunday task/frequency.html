@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+let num=Number(prompt("enter how many number you want : "));
+let arr=[];
+
+for(let k=0;k<num;k++){
+
+    let val=Number(prompt("enter the values : "));
+    arr.push(val);
+    
+}
+
+
+let obj={};
+
+let value=0;
+ let count=0;
+
+   for(let i=0;i<arr.length;i++){
+    
+     value=arr[i];
+
+    for(let j=0;j<arr.length;j++){
+    if(arr[j]==value){
+        
+        count++;
+
+    }
+
+
+    }
+
+       let n=arr[i];
+    
+          obj[i]=[n,count];
+
+    
+          count=0;
+   }
+
+  
+console.log(obj);
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+
+let marks=[98,45,67,88,95];
+
+let avg=marks.length;
+let total=0;
+
+let max=0;
+let min=marks[0];
+
+
+for(let i=0;i<marks.length;i++){
+
+    if(marks[i]>max){
+      
+        max=marks[i];
+        total+=marks[i];
+
+
+    }
+}
+
+for(let i=0;i<marks.length;i++){
+
+    if(marks[i]<min){
+      
+        min=marks[i];
+
+
+    }
+}
+console.log("maximum : "+max);
+console.log("minimum : "+min);
+console.log("Avg : "+total/avg);
+
+
+
+</script>
+
+</body>
+</html>

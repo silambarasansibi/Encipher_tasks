@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+
+  let a=Number(prompt("how many number you want to enter : "));
+
+  let arr=[];
+  let nrr=[];
+  let duplicate=[];
+  
+for(let i=0;i<a;i++){
+let get=Number(prompt("enter the number : "));
+arr.push(get);
+}
+
+
+for(let j=0;j<arr.length;j++){
+  
+  if(nrr.includes(arr[j])){
+    
+     duplicate.push(arr[j]);
+
+  }
+  else{
+    nrr.push(arr[j]);
+  }
+}
+
+alert(nrr);
+alert(duplicate);
+
+</script>
+
+</body>
+</html>
