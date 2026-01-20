@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+}
+
+.box {
+    margin: 20px;
+}
+
+.form-box {
+    width: 450px;
+    padding: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 95%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+table {
+    margin-top: 30px;
+    width: 90%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
